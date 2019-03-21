@@ -1,9 +1,41 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            About
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content padding>
+    <ion-slides pager>
+        <ion-slide>
+            <ion-list inset>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </ion-list>
+        </ion-slide>
+        <ion-slide>
+            <ion-card>
+                <ion-card-header>Formulario</ion-card-header>
+                <ion-card-content>
+
+                    <ion-item>
+                        <ion-label floating>Titulo</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+
+                    <ion-button>Guardar</ion-button>
+
+                    <ion-item>
+                        <ion-label stacked color="primary">Fecha</ion-label>
+                        <ion-datetime></ion-datetime>
+                    </ion-item>
+                </ion-card-content>
+
+                
+            </ion-card>
+        </ion-slide>
+
+    </ion-slides>
+</ion-content>
